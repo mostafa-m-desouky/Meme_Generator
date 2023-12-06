@@ -1,0 +1,48 @@
+main .container .form .input-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+main .container .form .input-box input {
+    width: 49%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+main .container .form .input-box input:focus {
+    outline: none;
+}
+main .container .form button {
+    width: 100%;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    padding: 10px 0;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+main .container .image-box {
+    position: relative;
+    width: 100%;
+}
+main .container .image-box img {
+    width: 100%;
+}
+main .container .image-box h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+}
+main .container .image-box h2:first-of-type {
+    top: 10px;
+}
+main .container .image-box h2:last-of-type {
+    bottom: 10px;
+}

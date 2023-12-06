@@ -1,0 +1,24 @@
+header {
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    margin-bottom: 30px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 100%;
+}
+header .container .left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+header .container .left img {
+    width: 40px;
+}
+header .container .right h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
